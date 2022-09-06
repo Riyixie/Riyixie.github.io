@@ -5,7 +5,7 @@ title: Wenn's Publish
 description: Wenn的个人博客
 keywords: Wenn,Blog,Java,Html,JavaScript
 author: Wenn
-footerText: 'Copyright © 2019-2021 Wenn'
+footerText: 'Copyright © 2019-2022 Wenn'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
@@ -13,7 +13,17 @@ kramdown:
   auto_ids: true
   input: GFM
   syntax_highlighter: rouge
-exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
+exclude:
+  [
+    'CNAME',
+    'README.md',
+    'LICENSE',
+    '_site',
+    'dist',
+    'Gemfile',
+    'Gemfile.lock',
+    'blog.sh',
+  ]
 
 # 域名配置
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
